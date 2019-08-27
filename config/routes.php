@@ -53,7 +53,7 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 */
-//$route['default_controller'] = 'Stud_controller';
+$route['default_controller'] = 'Stud_controller';
 $route['stud'] = "Stud_controller"; 
 $route['stud/add'] = 'Stud_controller/add_student'; 
 $route['stud/update'] = 'Stud_controller/update_student'; 
